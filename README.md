@@ -1,12 +1,11 @@
 # Vital Industry P4E Calculations
 
 [![DOI](https://zenodo.org/badge/520046482.svg)](https://osf.io/preprints/osf/h7wte)
-![Testing](https://github.com/allfed/vital-industry-p4e/actions/workflows/testing.yml/badge.svg?branch=main)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
 - Supplementary code for the [Guesstimate model](https://www.getguesstimate.com/models/23914) used in the paper "[Developing back-up plans to protect vital sectors in super-pandemics](https://osf.io/preprints/osf/h7wte)".
-- Contains calculations for the probability that all rapidly-accessible pandemic-proof PPE (P4E) can cover vital worker requirements and code for generating Figure 1 from the paper.
+- Contains calculations for the probability that all rapidly-accessible pandemic-proof PPE (P4E) can cover vital worker requirements and code for generating Figures 1 and 2 from the paper.
 
 ## Installation
 To install this repo, we recommend setting up a virtual environment. This will ensure that the package and its dependencies are isolated from other projects on your machine, which can prevent conflicts and make it easier to manage your dependencies. Here are the steps to follow:

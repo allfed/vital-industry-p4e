@@ -5,7 +5,7 @@
 
 
 - Supplementary code for the [Guesstimate model](https://www.getguesstimate.com/models/23914) used in the paper "[Developing back-up plans to protect vital sectors in super-pandemics](https://osf.io/preprints/osf/h7wte)".
-- Contains calculations for the probability that all rapidly-accessible pandemic-proof PPE (P4E) can cover vital worker requirements and code for generating Figures 1 and 2 from the paper.
+- Mirrors Guesstimate code estimating pandemic-proof PPE supply and demand, runs a sensitivity analysis, and generates Figures 1 and 2 from the paper.
 
 ## Installation
 To install this repo, we recommend setting up a virtual environment. This will ensure that the package and its dependencies are isolated from other projects on your machine, which can prevent conflicts and make it easier to manage your dependencies. Here are the steps to follow:

@@ -1,0 +1,26 @@
+await fetch("https://api.getguesstimate.com/spaces/26637", {
+    "credentials": "include",
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0",
+        "Accept": "*/*",
+        "Accept-Language": "en-CA,en-US;q=0.7,en;q=0.3",
+        "Content-Type": "application/json",
+        "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlF6RTJPVU0wTVRNd09VRTJSakJET1RSRU1EUkZSVVpETlRBelFUZEZPRGN3TnpNd09UUTBOdyJ9.eyJpc3MiOiJodHRwczovL2d1ZXNzdGltYXRlLmF1dGgwLmNvbS8iLCJzdWIiOiJnb29nbGUtb2F1dGgyfDExMzAzNjM1NTIzMzAyMzI5MzQxOCIsImF1ZCI6WyJndWVzc3RpbWF0ZS1hcGkiLCJodHRwczovL2d1ZXNzdGltYXRlLmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE3NzM2NjUxMjAsImV4cCI6MTc3Mzc1MTUyMCwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCBvZmZsaW5lX2FjY2VzcyIsImF6cCI6ImQzdjNaV2JsRGtZVEFZYVlzR1BRaWRGQTBlRU93Q0VtIn0.akDi_wDcmtGpHmkAZ9rZe5RBC4DCWENg3Iiw_BeUy37-CXxsHYslHPfETxNLwc20pwOoL063VO6AtSQtcGd1Z4FA1XMdmDz_EbQcs04m6bnr-GPY5Ijsj6imgHkLPgM4jhZ0jdq_Wm3M46rVVR0WpYAVvrmDgEaQpzB7wqr04z7vejEqlIZ8ZoPp-shR04rkC9Ust7So0N2y-Fmb4QoG3t8vffpd_Oq8jYPS6l5rTUrMXHMl6HTBtMXvExfSpic_m7SiNx18co0b4Qa5TXnctYmVR_RPlyIG15s0H54IZPq6VRKSvI6fPgTGy5ZoWOlTQ8X-pyiy3_cjbQ5iAGX36A",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-site",
+        "Priority": "u=4"
+    },
+    "referrer": "https://www.getguesstimate.com/",
+    "body": JSON.stringify({
+        space: {
+            graph: {
+                metrics: JSON.parse(`<?json:${"/home/james/Documents/GitHub/vital-industry-p4e/data/guesstimate_json_reordered.json"}?>`).graph.metrics,
+                guesstimates: JSON.parse(`<?json:${"/home/james/Documents/GitHub/vital-industry-p4e/data/guesstimate_json_reordered.json"}?>`).graph.guesstimates
+            },
+            previous_updated_at: "2026-03-16T13:10:37.406Z"
+        }
+    }),
+    "method": "PATCH",
+    "mode": "cors"
+});

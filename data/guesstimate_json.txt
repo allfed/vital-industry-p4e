@@ -1,0 +1,2052 @@
+{
+    "id": 23914,
+    "name": "Rapidly-accessible P4E availability and requirements",
+    "description": "PPE Estimates",
+    "created_at": "2024-02-01T03:55:05.738Z",
+    "updated_at": "2025-02-21T23:16:37.679Z",
+    "graph": {
+        "metrics": [
+            {
+                "id": "09e6b700-c0b6-11ee-a3d9-4db0074ca2bb",
+                "readableId": "PEO",
+                "name": "1: PEOPLE REQUIRED",
+                "location": {
+                    "row": 0,
+                    "column": 0
+                }
+            },
+            {
+                "id": "1637ca80-c0b6-11ee-a3d9-4db0074ca2bb",
+                "readableId": "TUN",
+                "name": "TOTAL: USPS Non-mail carriers",
+                "location": {
+                    "row": 1,
+                    "column": 0
+                }
+            },
+            {
+                "id": "3a0d6000-c0b6-11ee-a3d9-4db0074ca2bb",
+                "readableId": "TUM",
+                "name": "TOTAL: USPS Mail carriers",
+                "location": {
+                    "row": 2,
+                    "column": 0
+                }
+            },
+            {
+                "id": "51c0e140-c0b6-11ee-a3d9-4db0074ca2bb",
+                "readableId": "NUN",
+                "name": "NEEDED: USPS Non-mail carriers",
+                "location": {
+                    "row": 1,
+                    "column": 2
+                }
+            },
+            {
+                "id": "6319a530-c0b6-11ee-a3d9-4db0074ca2bb",
+                "readableId": "NUM",
+                "name": "NEEDED: USPS Mail carriers",
+                "location": {
+                    "row": 2,
+                    "column": 2
+                }
+            },
+            {
+                "id": "79890db0-c0b6-11ee-a3d9-4db0074ca2bb",
+                "readableId": "PNN",
+                "name": "PROPORTION NEEDED: Non-mail carriers",
+                "location": {
+                    "row": 1,
+                    "column": 1
+                }
+            },
+            {
+                "id": "980b91e0-c0b6-11ee-a3d9-4db0074ca2bb",
+                "readableId": "PNM",
+                "name": "PROPORTION NEEDED: Mail carriers",
+                "location": {
+                    "row": 2,
+                    "column": 1
+                }
+            },
+            {
+                "id": "b8fa3410-c0b6-11ee-a3d9-4db0074ca2bb",
+                "readableId": "FUN",
+                "name": "FFRs: USPS Non-mail carriers",
+                "location": {
+                    "row": 1,
+                    "column": 3
+                }
+            },
+            {
+                "id": "c5a8f7f0-c0b6-11ee-a3d9-4db0074ca2bb",
+                "readableId": "FUM",
+                "name": "FFRs: USPS Mail carriers",
+                "location": {
+                    "row": 2,
+                    "column": 3
+                }
+            },
+            {
+                "id": "c8836820-c0b6-11ee-a3d9-4db0074ca2bb",
+                "readableId": "EUN",
+                "name": "EHMRs: USPS Non-mail carriers",
+                "location": {
+                    "row": 1,
+                    "column": 4
+                }
+            },
+            {
+                "id": "c8e49af0-c0b6-11ee-a3d9-4db0074ca2bb",
+                "readableId": "EUM",
+                "name": "EHMRs: USPS Mail carriers",
+                "location": {
+                    "row": 2,
+                    "column": 4
+                }
+            },
+            {
+                "id": "10978e20-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "TEU1",
+                "name": "TOTAL ENERGY: USPS",
+                "location": {
+                    "row": 1,
+                    "column": 5
+                }
+            },
+            {
+                "id": "22304140-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "REU",
+                "name": "REQUIRED ENERGY: USPS",
+                "location": {
+                    "row": 1,
+                    "column": 6
+                }
+            },
+            {
+                "id": "99bd9230-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "TOT",
+                "name": "TOTAL: Telecomms",
+                "location": {
+                    "row": 3,
+                    "column": 0
+                }
+            },
+            {
+                "id": "99bd9231-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "NEE",
+                "name": "NEEDED: Telecomms",
+                "location": {
+                    "row": 3,
+                    "column": 2
+                }
+            },
+            {
+                "id": "99bdb940-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "PNT",
+                "name": "PROPORTION NEEDED: Telecomms",
+                "location": {
+                    "row": 3,
+                    "column": 1
+                }
+            },
+            {
+                "id": "99bdb941-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "FFR",
+                "name": "FFRs: Telecomms",
+                "location": {
+                    "row": 3,
+                    "column": 3
+                }
+            },
+            {
+                "id": "99bdb942-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "EHM",
+                "name": "EHMRs: Telecomms",
+                "location": {
+                    "row": 3,
+                    "column": 4
+                }
+            },
+            {
+                "id": "99bdb943-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "TET",
+                "name": "TOTAL ENERGY: Telecomms",
+                "location": {
+                    "row": 3,
+                    "column": 5
+                }
+            },
+            {
+                "id": "99bdb944-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "RET",
+                "name": "REQUIRED ENERGY: Telecomms",
+                "location": {
+                    "row": 3,
+                    "column": 6
+                }
+            },
+            {
+                "id": "9a828fe0-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "TPW",
+                "name": "TOTAL: PPE Workers",
+                "location": {
+                    "row": 4,
+                    "column": 0
+                }
+            },
+            {
+                "id": "9a828fe1-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "NPW",
+                "name": "NEEDED: PPE Workers",
+                "location": {
+                    "row": 4,
+                    "column": 2
+                }
+            },
+            {
+                "id": "9a828fe2-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "PNP",
+                "name": "PROPORTION NEEDED: PPE Workers",
+                "location": {
+                    "row": 4,
+                    "column": 1
+                }
+            },
+            {
+                "id": "9a828fe3-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "FPW",
+                "name": "FFRs: PPE Workers",
+                "location": {
+                    "row": 4,
+                    "column": 3
+                }
+            },
+            {
+                "id": "9a828fe4-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "EPW",
+                "name": "EHMRs: PPE Workers",
+                "location": {
+                    "row": 4,
+                    "column": 4
+                }
+            },
+            {
+                "id": "9a82b6f0-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "TEP",
+                "name": "TOTAL ENERGY: PPE Workers",
+                "location": {
+                    "row": 4,
+                    "column": 5
+                }
+            },
+            {
+                "id": "9a82b6f1-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "REP",
+                "name": "REQUIRED ENERGY: PPE Workers",
+                "location": {
+                    "row": 4,
+                    "column": 6
+                }
+            },
+            {
+                "id": "9b233cb0-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "TLN",
+                "name": "TOTAL: Law Enforcement",
+                "location": {
+                    "row": 5,
+                    "column": 0
+                }
+            },
+            {
+                "id": "9b233cb3-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "FLN",
+                "name": "FFRs: Law Enforcement",
+                "location": {
+                    "row": 5,
+                    "column": 3
+                }
+            },
+            {
+                "id": "9b233cb4-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "ELN",
+                "name": "EHMRs: Law Enforcement",
+                "location": {
+                    "row": 5,
+                    "column": 4
+                }
+            },
+            {
+                "id": "9b233cb5-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "TEL1",
+                "name": "TOTAL ENERGY: Law Enforcement (Police)",
+                "location": {
+                    "row": 5,
+                    "column": 5
+                }
+            },
+            {
+                "id": "9b233cb6-c0b7-11ee-a3d9-4db0074ca2bb",
+                "readableId": "REL",
+                "name": "REQUIRED ENERGY: Law Enforcement",
+                "location": {
+                    "row": 5,
+                    "column": 6
+                }
+            },
+            {
+                "id": "32078360-c0b9-11ee-a3d9-4db0074ca2bb",
+                "readableId": "TEW",
+                "name": "TOTAL: Energy Workers",
+                "location": {
+                    "row": 6,
+                    "column": 0
+                }
+            },
+            {
+                "id": "3207aa70-c0b9-11ee-a3d9-4db0074ca2bb",
+                "readableId": "NEW",
+                "name": "NEEDED: Energy Workers",
+                "location": {
+                    "row": 6,
+                    "column": 2
+                }
+            },
+            {
+                "id": "3207aa71-c0b9-11ee-a3d9-4db0074ca2bb",
+                "readableId": "CPN",
+                "name": "CALCULATED PROPORTION NEEDED: Energy Workers",
+                "location": {
+                    "row": 7,
+                    "column": 1
+                }
+            },
+            {
+                "id": "3207aa72-c0b9-11ee-a3d9-4db0074ca2bb",
+                "readableId": "FEW",
+                "name": "FFRs: Energy Workers",
+                "location": {
+                    "row": 6,
+                    "column": 3
+                }
+            },
+            {
+                "id": "3207d180-c0b9-11ee-a3d9-4db0074ca2bb",
+                "readableId": "EEW",
+                "name": "EHMRs: Energy Workers",
+                "location": {
+                    "row": 6,
+                    "column": 4
+                }
+            },
+            {
+                "id": "3207d181-c0b9-11ee-a3d9-4db0074ca2bb",
+                "readableId": "TEU",
+                "name": "TOTAL ENERGY: US Consumption",
+                "location": {
+                    "row": 7,
+                    "column": 0
+                }
+            },
+            {
+                "id": "3207d182-c0b9-11ee-a3d9-4db0074ca2bb",
+                "readableId": "REE",
+                "name": "REQUIRED ENERGY: Energy Workers",
+                "location": {
+                    "row": 6,
+                    "column": 6
+                }
+            },
+            {
+                "id": "eac81d10-c0b9-11ee-a3d9-4db0074ca2bb",
+                "readableId": "GRO",
+                "name": "GROUP FFRs",
+                "location": {
+                    "row": 8,
+                    "column": 3
+                }
+            },
+            {
+                "id": "fde8a8b0-c0b9-11ee-a3d9-4db0074ca2bb",
+                "readableId": "GRO1",
+                "name": "GROUP EHMRs",
+                "location": {
+                    "row": 8,
+                    "column": 4
+                }
+            },
+            {
+                "id": "8ccf96e0-c0c1-11ee-8301-cb5272575ac8",
+                "readableId": "DFN",
+                "name": "90 DAYS: FFRs Needed",
+                "location": {
+                    "row": 10,
+                    "column": 3
+                }
+            },
+            {
+                "id": "9eb9ec70-c0c1-11ee-8301-cb5272575ac8",
+                "readableId": "DPN",
+                "name": "90 DAYS: P4E Needed",
+                "location": {
+                    "row": 10,
+                    "column": 4
+                }
+            },
+            {
+                "id": "aae3eff0-c0c1-11ee-8301-cb5272575ac8",
+                "readableId": "EPW1",
+                "name": "EHMRS per worker per 90 days",
+                "location": {
+                    "row": 9,
+                    "column": 4
+                }
+            },
+            {
+                "id": "7de429d0-c85e-11ee-aaa8-65f55cdf1e90",
+                "readableId": "NPV1",
+                "name": "2. NATIONAL PPE AVAILABLE",
+                "location": {
+                    "row": 12,
+                    "column": 0
+                }
+            },
+            {
+                "id": "32be3980-c86a-11ee-aaa8-65f55cdf1e90",
+                "readableId": "MM51",
+                "name": "Military M50/51/53",
+                "location": {
+                    "row": 13,
+                    "column": 0
+                }
+            },
+            {
+                "id": "7313cc70-c86a-11ee-aaa8-65f55cdf1e90",
+                "readableId": "SNS",
+                "name": "SNS EHMRs",
+                "location": {
+                    "row": 14,
+                    "column": 0
+                }
+            },
+            {
+                "id": "c9a275a0-c86a-11ee-aaa8-65f55cdf1e90",
+                "readableId": "SNS1",
+                "name": "SNS N95s",
+                "location": {
+                    "row": 16,
+                    "column": 0
+                }
+            },
+            {
+                "id": "e2dc48c0-c86a-11ee-aaa8-65f55cdf1e90",
+                "readableId": "PAP",
+                "name": "PAPR Spending",
+                "location": {
+                    "row": 15,
+                    "column": 0
+                }
+            },
+            {
+                "id": "5be51620-c86b-11ee-aaa8-65f55cdf1e90",
+                "readableId": "TNV",
+                "name": "Total N95s Available",
+                "location": {
+                    "row": 17,
+                    "column": 3
+                }
+            },
+            {
+                "id": "7b1a4880-c86b-11ee-aaa8-65f55cdf1e90",
+                "readableId": "TEO",
+                "name": "Total EHMRs or Greater Available",
+                "location": {
+                    "row": 17,
+                    "column": 4
+                }
+            },
+            {
+                "id": "9af2e6d0-c86b-11ee-aaa8-65f55cdf1e90",
+                "readableId": "GEX1",
+                "name": "Group EHMRs (excluding law)",
+                "location": {
+                    "row": 8,
+                    "column": 5
+                }
+            },
+            {
+                "id": "ae6255c0-c86b-11ee-aaa8-65f55cdf1e90",
+                "readableId": "FF",
+                "name": "EHMRS per worker per 90 days",
+                "location": {
+                    "row": 9,
+                    "column": 5
+                }
+            },
+            {
+                "id": "afbd51e0-c86b-11ee-aaa8-65f55cdf1e90",
+                "readableId": "DPN1",
+                "name": "90 DAYS: P4E Needed (excluding law)",
+                "location": {
+                    "row": 10,
+                    "column": 5
+                }
+            },
+            {
+                "id": "c82d1e40-c86b-11ee-aaa8-65f55cdf1e90",
+                "readableId": "TEO1",
+                "name": "Total EHMRs or Greater Available (Excluding law)",
+                "location": {
+                    "row": 17,
+                    "column": 5
+                }
+            },
+            {
+                "id": "e3f7d570-c86b-11ee-aaa8-65f55cdf1e90",
+                "readableId": "ITS1",
+                "name": "Is there sufficient P4E for P4E production?",
+                "location": {
+                    "row": 18,
+                    "column": 0
+                }
+            },
+            {
+                "id": "e8ad2020-c86b-11ee-aaa8-65f55cdf1e90",
+                "readableId": "YES",
+                "name": "Yes",
+                "location": {
+                    "row": 18,
+                    "column": 3
+                }
+            },
+            {
+                "id": "ebb7ef20-c86b-11ee-aaa8-65f55cdf1e90",
+                "readableId": "PNC",
+                "name": "Probably (not certain)",
+                "location": {
+                    "row": 18,
+                    "column": 4
+                }
+            },
+            {
+                "id": "faf61070-c86b-11ee-aaa8-65f55cdf1e90",
+                "readableId": "VK",
+                "name": "Probably (not certain)",
+                "location": {
+                    "row": 18,
+                    "column": 5
+                }
+            },
+            {
+                "id": "feb1bde0-6bc7-11ef-952c-39ff51be922f",
+                "readableId": "PUC",
+                "name": "PAPR Unit Cost",
+                "location": {
+                    "row": 15,
+                    "column": 1
+                }
+            },
+            {
+                "id": "04946500-6bc8-11ef-952c-39ff51be922f",
+                "readableId": "PAP1",
+                "name": "PAPRs Purchased",
+                "location": {
+                    "row": 15,
+                    "column": 2
+                }
+            },
+            {
+                "id": "0c0944e0-6bc8-11ef-952c-39ff51be922f",
+                "readableId": "RPT",
+                "name": "Ratio Purchase to Stockpile",
+                "location": {
+                    "row": 15,
+                    "column": 3
+                }
+            },
+            {
+                "id": "14f0c790-6bc8-11ef-952c-39ff51be922f",
+                "readableId": "PLA",
+                "name": "PAPRs (local and national)",
+                "location": {
+                    "row": 15,
+                    "column": 4
+                }
+            },
+            {
+                "id": "20aa7d10-6bc8-11ef-952c-39ff51be922f",
+                "readableId": "PRO",
+                "name": "Proportion National",
+                "location": {
+                    "row": 15,
+                    "column": 5
+                }
+            },
+            {
+                "id": "24e0acb0-6bc8-11ef-952c-39ff51be922f",
+                "readableId": "SNS2",
+                "name": "SNS PAPRs",
+                "location": {
+                    "row": 15,
+                    "column": 6
+                }
+            },
+            {
+                "id": "54fa3650-6bc8-11ef-952c-39ff51be922f",
+                "readableId": "LPV",
+                "name": "3. LOCAL: PPE AVAILABLE",
+                "location": {
+                    "row": 20,
+                    "column": 0
+                }
+            },
+            {
+                "id": "57109330-6bc8-11ef-952c-39ff51be922f",
+                "readableId": "PSO",
+                "name": "PAPRs stock on hand",
+                "location": {
+                    "row": 21,
+                    "column": 0
+                }
+            },
+            {
+                "id": "60c57800-6bc8-11ef-952c-39ff51be922f",
+                "readableId": "USA",
+                "name": "Usable",
+                "location": {
+                    "row": 21,
+                    "column": 1
+                }
+            },
+            {
+                "id": "67d3a6d0-6bc8-11ef-952c-39ff51be922f",
+                "readableId": "USR",
+                "name": "Units stockpiled (rapidly mobilisable)",
+                "location": {
+                    "row": 21,
+                    "column": 2
+                }
+            },
+            {
+                "id": "82cb5690-6bc8-11ef-952c-39ff51be922f",
+                "readableId": "PFW",
+                "name": "Proportion facilities with elastomerics stocked",
+                "location": {
+                    "row": 22,
+                    "column": 0
+                }
+            },
+            {
+                "id": "8a94e620-6bc8-11ef-952c-39ff51be922f",
+                "readableId": "LNF",
+                "name": "Elastomerics needed for influenza pandemic",
+                "location": {
+                    "row": 22,
+                    "column": 1
+                }
+            },
+            {
+                "id": "a63a8920-6bc8-11ef-952c-39ff51be922f",
+                "readableId": "TLS",
+                "name": "Total elastomerics stocked if enough for influenza",
+                "location": {
+                    "row": 22,
+                    "column": 2
+                }
+            },
+            {
+                "id": "ab6503d0-6bc8-11ef-952c-39ff51be922f",
+                "readableId": "AFS",
+                "name": "Actual facilities stocked to requirements",
+                "location": {
+                    "row": 22,
+                    "column": 3
+                }
+            },
+            {
+                "id": "c44963f0-6bc8-11ef-952c-39ff51be922f",
+                "readableId": "USN",
+                "name": "Units stockpiled (national)",
+                "location": {
+                    "row": 22,
+                    "column": 4
+                }
+            },
+            {
+                "id": "cbbf0720-6bc8-11ef-952c-39ff51be922f",
+                "readableId": "USA1",
+                "name": "Usable",
+                "location": {
+                    "row": 22,
+                    "column": 5
+                }
+            },
+            {
+                "id": "d30d9a50-6bc8-11ef-952c-39ff51be922f",
+                "readableId": "USR1",
+                "name": "Units stockpiled (rapidly mobilisable)",
+                "location": {
+                    "row": 22,
+                    "column": 6
+                }
+            },
+            {
+                "id": "1221ac90-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "NPV",
+                "name": "4. INVENTORY: PPE AVAILABLE",
+                "location": {
+                    "row": 26,
+                    "column": 0
+                }
+            },
+            {
+                "id": "136ec600-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "UPM",
+                "name": "US PAPR Market",
+                "location": {
+                    "row": 27,
+                    "column": 0
+                }
+            },
+            {
+                "id": "1a36eb20-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "PAP2",
+                "name": "PAPR Cost",
+                "location": {
+                    "row": 27,
+                    "column": 1
+                }
+            },
+            {
+                "id": "200a28f0-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "ANN",
+                "name": "Annual Product",
+                "location": {
+                    "row": 27,
+                    "column": 2
+                }
+            },
+            {
+                "id": "24473660-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "SUI",
+                "name": "Suitability",
+                "location": {
+                    "row": 27,
+                    "column": 3
+                }
+            },
+            {
+                "id": "2a32b720-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "ASP",
+                "name": "Annual suitable product",
+                "location": {
+                    "row": 27,
+                    "column": 4
+                }
+            },
+            {
+                "id": "304e6fa0-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "DOH",
+                "name": "Days on hand (including retail)",
+                "location": {
+                    "row": 27,
+                    "column": 5
+                }
+            },
+            {
+                "id": "35fcc050-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "PNO",
+                "name": "PAPRs inventory on hand",
+                "location": {
+                    "row": 27,
+                    "column": 6
+                }
+            },
+            {
+                "id": "6e801120-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "NSP",
+                "name": "N95 Sales pre covid",
+                "location": {
+                    "row": 28,
+                    "column": 0
+                }
+            },
+            {
+                "id": "72fee280-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "LSV",
+                "name": "Elastomeric sales vs N95 sales",
+                "location": {
+                    "row": 28,
+                    "column": 1
+                }
+            },
+            {
+                "id": "78b57090-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "ELA",
+                "name": "Elastomeric sales",
+                "location": {
+                    "row": 28,
+                    "column": 2
+                }
+            },
+            {
+                "id": "7e3907c0-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "LUC",
+                "name": "Elastomeric unit cost",
+                "location": {
+                    "row": 28,
+                    "column": 3
+                }
+            },
+            {
+                "id": "84ec4550-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "ANN1",
+                "name": "Annual elastomerics",
+                "location": {
+                    "row": 28,
+                    "column": 4
+                }
+            },
+            {
+                "id": "922bfe90-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "PWS",
+                "name": "Proportion with suitable filters and not expired",
+                "location": {
+                    "row": 28,
+                    "column": 5
+                }
+            },
+            {
+                "id": "978159d0-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "ASP1",
+                "name": "Annual suitable product",
+                "location": {
+                    "row": 28,
+                    "column": 6
+                }
+            },
+            {
+                "id": "9bf4e090-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "DOH1",
+                "name": "Days on hand (including retail",
+                "location": {
+                    "row": 28,
+                    "column": 7
+                }
+            },
+            {
+                "id": "a236e5c0-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "LNO",
+                "name": "Elastomerics inventory on hand",
+                "location": {
+                    "row": 28,
+                    "column": 8
+                }
+            },
+            {
+                "id": "b7eb3ba0-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "TSN",
+                "name": "TOTAL STOCKPILES + INVENTORY",
+                "location": {
+                    "row": 30,
+                    "column": 0
+                }
+            },
+            {
+                "id": "bf072610-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "TOT1",
+                "name": "TOTAL PAPRs",
+                "location": {
+                    "row": 31,
+                    "column": 0
+                }
+            },
+            {
+                "id": "c37a1090-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "TOT2",
+                "name": "TOTAL M50s",
+                "location": {
+                    "row": 31,
+                    "column": 1
+                }
+            },
+            {
+                "id": "ca00bfe0-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "TOT3",
+                "name": "TOTAL ELASTOMERICS",
+                "location": {
+                    "row": 31,
+                    "column": 2
+                }
+            },
+            {
+                "id": "cf7a9310-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "TOT4",
+                "name": "TOTAL ALL",
+                "location": {
+                    "row": 31,
+                    "column": 3
+                }
+            },
+            {
+                "id": "eadac8a0-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "TDP1",
+                "name": "5. TOTAL DISTRIBUTED P4E",
+                "location": {
+                    "row": 33,
+                    "column": 0
+                }
+            },
+            {
+                "id": "f185c8d0-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "PPS",
+                "name": "PAPR private sector usage (employees)",
+                "location": {
+                    "row": 34,
+                    "column": 0
+                }
+            },
+            {
+                "id": "f5661040-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "PPP",
+                "name": "PAPRs per PAPR-employee",
+                "location": {
+                    "row": 34,
+                    "column": 1
+                }
+            },
+            {
+                "id": "fa240d80-6bc9-11ef-952c-39ff51be922f",
+                "readableId": "TPS",
+                "name": "Total private sector PAPRs",
+                "location": {
+                    "row": 34,
+                    "column": 2
+                }
+            },
+            {
+                "id": "018899b0-6bca-11ef-952c-39ff51be922f",
+                "readableId": "NPP",
+                "name": "Non-powered private sector usage (employees)",
+                "location": {
+                    "row": 35,
+                    "column": 0
+                }
+            },
+            {
+                "id": "05f9af70-6bca-11ef-952c-39ff51be922f",
+                "readableId": "EUO",
+                "name": "EHMR usage (orgs)",
+                "location": {
+                    "row": 35,
+                    "column": 1
+                }
+            },
+            {
+                "id": "0adfce20-6bca-11ef-952c-39ff51be922f",
+                "readableId": "EOU",
+                "name": "Employee/orgs usage ratio",
+                "location": {
+                    "row": 35,
+                    "column": 2
+                }
+            },
+            {
+                "id": "0f91e480-6bca-11ef-952c-39ff51be922f",
+                "readableId": "EUM1",
+                "name": "EHMR usage (employees)",
+                "location": {
+                    "row": 35,
+                    "column": 3
+                }
+            },
+            {
+                "id": "1ef0ad30-6bca-11ef-952c-39ff51be922f",
+                "readableId": "LPL",
+                "name": "Elastomerics per elastomeric-employee",
+                "location": {
+                    "row": 35,
+                    "column": 4
+                }
+            },
+            {
+                "id": "24d7c120-6bca-11ef-952c-39ff51be922f",
+                "readableId": "TPS1",
+                "name": "Total private sector EHMRs",
+                "location": {
+                    "row": 35,
+                    "column": 5
+                }
+            },
+            {
+                "id": "29c002b0-6bca-11ef-952c-39ff51be922f",
+                "readableId": "TPS2",
+                "name": "Total private sector elastomerics",
+                "location": {
+                    "row": 35,
+                    "column": 6
+                }
+            },
+            {
+                "id": "349e2540-6bca-11ef-952c-39ff51be922f",
+                "readableId": "EUO1",
+                "name": "EFMR usage (orgs)",
+                "location": {
+                    "row": 36,
+                    "column": 1
+                }
+            },
+            {
+                "id": "391184f0-6bca-11ef-952c-39ff51be922f",
+                "readableId": "EUM2",
+                "name": "EFMR usage (employees)",
+                "location": {
+                    "row": 36,
+                    "column": 3
+                }
+            },
+            {
+                "id": "455e52b0-6bca-11ef-952c-39ff51be922f",
+                "readableId": "TPS3",
+                "name": "Total private sector EFMRs",
+                "location": {
+                    "row": 36,
+                    "column": 5
+                }
+            },
+            {
+                "id": "5a15d200-6bca-11ef-952c-39ff51be922f",
+                "readableId": "TOT5",
+                "name": "TOTAL PAPRs",
+                "location": {
+                    "row": 38,
+                    "column": 0
+                }
+            },
+            {
+                "id": "92740ea0-6bca-11ef-952c-39ff51be922f",
+                "readableId": "TOT6",
+                "name": "TOTAL M50s",
+                "location": {
+                    "row": 38,
+                    "column": 1
+                }
+            },
+            {
+                "id": "9886c670-6bca-11ef-952c-39ff51be922f",
+                "readableId": "TOT7",
+                "name": "TOTAL  ELASTOMERICS",
+                "location": {
+                    "row": 38,
+                    "column": 2
+                }
+            },
+            {
+                "id": "b91b88d0-6bca-11ef-952c-39ff51be922f",
+                "readableId": "TRC",
+                "name": "TOTAL RAPIDLY ACCESSIBLE P4E (ALL)",
+                "location": {
+                    "row": 40,
+                    "column": 0
+                }
+            },
+            {
+                "id": "c81b8fb0-6bca-11ef-952c-39ff51be922f",
+                "readableId": "NWD",
+                "name": "Note we do not currently include public sector non-healthcare, or household numbers (e.g., preppers)",
+                "location": {
+                    "row": 40,
+                    "column": 1
+                }
+            },
+            {
+                "id": "859ff600-708c-11ef-8d5a-55fbff66f9df",
+                "readableId": "AVW",
+                "name": "All vital workers",
+                "location": {
+                    "row": 44,
+                    "column": 1
+                }
+            },
+            {
+                "id": "a9282ed0-708c-11ef-8d5a-55fbff66f9df",
+                "readableId": "PNP1",
+                "name": "Proportion needing P4E",
+                "location": {
+                    "row": 44,
+                    "column": 2
+                }
+            },
+            {
+                "id": "ee4b7670-708c-11ef-8d5a-55fbff66f9df",
+                "readableId": "VWN",
+                "name": "Vital workers needing P4E",
+                "location": {
+                    "row": 44,
+                    "column": 3
+                }
+            },
+            {
+                "id": "fb6e0ac0-708c-11ef-8d5a-55fbff66f9df",
+                "readableId": "UPN",
+                "name": "Units P4E needed",
+                "location": {
+                    "row": 44,
+                    "column": 4
+                }
+            },
+            {
+                "id": "038481d0-708d-11ef-8d5a-55fbff66f9df",
+                "readableId": "UNI",
+                "name": "Units needed",
+                "location": {
+                    "row": 44,
+                    "column": 5
+                }
+            },
+            {
+                "id": "664f4f90-7090-11ef-8d5a-55fbff66f9df",
+                "readableId": "PNE1",
+                "name": "PROPORTION NEEDED: Energy Workers",
+                "location": {
+                    "row": 6,
+                    "column": 1
+                }
+            },
+            {
+                "id": "2905cdb0-709c-11ef-8d5a-55fbff66f9df",
+                "readableId": "AVW1",
+                "name": "6. All vital workers",
+                "location": {
+                    "row": 42,
+                    "column": 0
+                }
+            },
+            {
+                "id": "2cd54c40-709c-11ef-8d5a-55fbff66f9df",
+                "readableId": "ASW",
+                "name": "All essential workers",
+                "location": {
+                    "row": 43,
+                    "column": 0
+                }
+            },
+            {
+                "id": "626a08a0-709c-11ef-8d5a-55fbff66f9df",
+                "readableId": "PVV",
+                "name": "Proportion vital vs essential workers",
+                "location": {
+                    "row": 44,
+                    "column": 0
+                }
+            },
+            {
+                "id": "4135e590-8a51-11ef-b6f3-cde86951bacf",
+                "readableId": "TSN1",
+                "name": "TOTAL STOCKPILES (NATIONAL + MILITARY + LOCAL)",
+                "location": {
+                    "row": 24,
+                    "column": 0
+                }
+            },
+            {
+                "id": "d2e34450-be2d-11ef-9241-33b3134d1943",
+                "readableId": "PRO2",
+                "name": "7. Probability Calcs",
+                "location": {
+                    "row": 47,
+                    "column": 0
+                }
+            },
+            {
+                "id": "e75b2290-be2d-11ef-9241-33b3134d1943",
+                "readableId": "PEP",
+                "name": "Probability enough P4E for vital workers if everything redistributed perfectly",
+                "location": {
+                    "row": 48,
+                    "column": 0
+                }
+            },
+            {
+                "id": "fb135a50-be2d-11ef-9241-33b3134d1943",
+                "readableId": "POV",
+                "name": "Probability of everything being redistributed perfectly",
+                "location": {
+                    "row": 48,
+                    "column": 1
+                }
+            },
+            {
+                "id": "0b3524e0-be2e-11ef-9241-33b3134d1943",
+                "readableId": "PEP2",
+                "name": "Probability enough P4E for vital workers",
+                "location": {
+                    "row": 48,
+                    "column": 2
+                }
+            }
+        ],
+        "guesstimates": [
+            {
+                "metric": "09e6b700-c0b6-11ee-a3d9-4db0074ca2bb",
+                "input": "",
+                "guesstimateType": "NONE",
+                "description": ""
+            },
+            {
+                "metric": "1637ca80-c0b6-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "173240",
+                "guesstimateType": "POINT",
+                "description": ""
+            },
+            {
+                "metric": "3a0d6000-c0b6-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "326760",
+                "guesstimateType": "POINT",
+                "description": ""
+            },
+            {
+                "metric": "51c0e140-c0b6-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=${metric:1637ca80-c0b6-11ee-a3d9-4db0074ca2bb}*${metric:79890db0-c0b6-11ee-a3d9-4db0074ca2bb}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "6319a530-c0b6-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=${metric:3a0d6000-c0b6-11ee-a3d9-4db0074ca2bb}*${metric:980b91e0-c0b6-11ee-a3d9-4db0074ca2bb}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "79890db0-c0b6-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "0.05 to 0.2",
+                "guesstimateType": "LOGNORMAL",
+                "description": ""
+            },
+            {
+                "metric": "980b91e0-c0b6-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "0.05 to 0.2",
+                "guesstimateType": "LOGNORMAL",
+                "description": ""
+            },
+            {
+                "metric": "b8fa3410-c0b6-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "-0",
+                "guesstimateType": "POINT",
+                "description": ""
+            },
+            {
+                "metric": "c5a8f7f0-c0b6-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=${metric:6319a530-c0b6-11ee-a3d9-4db0074ca2bb}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "c8836820-c0b6-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=${metric:51c0e140-c0b6-11ee-a3d9-4db0074ca2bb}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "c8e49af0-c0b6-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=0",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "10978e20-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=13e9",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "22304140-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=${metric:79890db0-c0b6-11ee-a3d9-4db0074ca2bb}*${metric:10978e20-c0b7-11ee-a3d9-4db0074ca2bb}",
+                "guesstimateType": "FUNCTION",
+                "description": "[https://www.statista.com/statistics/189676/us-government-energy-consumption-by-the-postal-service-agency-since-2000/](https://www.statista.com/statistics/189676/us-government-energy-consumption-by-the-postal-service-agency-since-2000/)"
+            },
+            {
+                "metric": "99bd9230-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "250000",
+                "guesstimateType": "POINT",
+                "description": ""
+            },
+            {
+                "metric": "99bd9231-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=${metric:99bd9230-c0b7-11ee-a3d9-4db0074ca2bb}*${metric:99bdb940-c0b7-11ee-a3d9-4db0074ca2bb}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "99bdb940-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "0.05 to 0.2",
+                "guesstimateType": "LOGNORMAL",
+                "description": ""
+            },
+            {
+                "metric": "99bdb941-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=0.5*${metric:99bd9231-c0b7-11ee-a3d9-4db0074ca2bb}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "99bdb942-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=0.5*${metric:99bd9231-c0b7-11ee-a3d9-4db0074ca2bb}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "99bdb943-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=8e9",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "99bdb944-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=${metric:99bdb940-c0b7-11ee-a3d9-4db0074ca2bb}*${metric:99bdb943-c0b7-11ee-a3d9-4db0074ca2bb}",
+                "guesstimateType": "FUNCTION",
+                "description": "Chat GPT estimate, seems reasonable compared to other industries.\n[https://chat.openai.com/share/c5cfaeeb-23d9-4c4d-a18c-efb4ef3cfb93](https://chat.openai.com/share/c5cfaeeb-23d9-4c4d-a18c-efb4ef3cfb93)"
+            },
+            {
+                "metric": "9a828fe0-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=16819",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "9a828fe1-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=${metric:9a828fe0-c0b7-11ee-a3d9-4db0074ca2bb}*${metric:9a828fe2-c0b7-11ee-a3d9-4db0074ca2bb}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "9a828fe2-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "1 to 1.5",
+                "guesstimateType": "LOGNORMAL",
+                "description": ""
+            },
+            {
+                "metric": "9a828fe3-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "-0",
+                "guesstimateType": "POINT",
+                "description": ""
+            },
+            {
+                "metric": "9a828fe4-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=${metric:9a828fe1-c0b7-11ee-a3d9-4db0074ca2bb}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "9a82b6f0-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=240e6",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "9a82b6f1-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=${metric:9a82b6f0-c0b7-11ee-a3d9-4db0074ca2bb}",
+                "guesstimateType": "FUNCTION",
+                "description": "[https://pmc.ncbi.nlm.nih.gov/articles/PMC9807258/](https://pmc.ncbi.nlm.nih.gov/articles/PMC9807258/)"
+            },
+            {
+                "metric": "9b233cb0-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "450000 to 660000",
+                "guesstimateType": "LOGNORMAL",
+                "description": ""
+            },
+            {
+                "metric": "9b233cb3-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=0.3*${metric:9b233cb0-c0b7-11ee-a3d9-4db0074ca2bb}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "9b233cb4-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=0.7*${metric:9b233cb0-c0b7-11ee-a3d9-4db0074ca2bb}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "9b233cb5-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=37e9",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "9b233cb6-c0b7-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=(550000/700000)*${metric:9b233cb5-c0b7-11ee-a3d9-4db0074ca2bb}",
+                "guesstimateType": "FUNCTION",
+                "description": "Chat GPT estimate, seems sensible compared to other industry usage.\n[https://chat.openai.com/share/c5cfaeeb-23d9-4c4d-a18c-efb4ef3cfb93](https://chat.openai.com/share/c5cfaeeb-23d9-4c4d-a18c-efb4ef3cfb93)"
+            },
+            {
+                "metric": "32078360-c0b9-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=3283300",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "3207aa70-c0b9-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=${metric:32078360-c0b9-11ee-a3d9-4db0074ca2bb}*${metric:664f4f90-7090-11ef-8d5a-55fbff66f9df}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "3207aa71-c0b9-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=((${metric:22304140-c0b7-11ee-a3d9-4db0074ca2bb}+${metric:99bdb944-c0b7-11ee-a3d9-4db0074ca2bb}+${metric:9a82b6f1-c0b7-11ee-a3d9-4db0074ca2bb}+${metric:9b233cb6-c0b7-11ee-a3d9-4db0074ca2bb})/${metric:3207d181-c0b9-11ee-a3d9-4db0074ca2bb})",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "3207aa72-c0b9-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=0",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "3207d180-c0b9-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=${metric:3207aa70-c0b9-11ee-a3d9-4db0074ca2bb}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "3207d181-c0b9-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=4.18E12",
+                "guesstimateType": "FUNCTION",
+                "description": "[https://www.eia.gov/tools/faqs/faq.php?id=427\u0026t=3](https://www.eia.gov/tools/faqs/faq.php?id=427\u0026t=3)"
+            },
+            {
+                "metric": "3207d182-c0b9-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": null,
+                "guesstimateType": "NONE",
+                "description": ""
+            },
+            {
+                "metric": "eac81d10-c0b9-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=${metric:b8fa3410-c0b6-11ee-a3d9-4db0074ca2bb}+${metric:c5a8f7f0-c0b6-11ee-a3d9-4db0074ca2bb}+${metric:99bdb941-c0b7-11ee-a3d9-4db0074ca2bb}+${metric:9a828fe3-c0b7-11ee-a3d9-4db0074ca2bb}+${metric:9b233cb3-c0b7-11ee-a3d9-4db0074ca2bb}+${metric:3207aa72-c0b9-11ee-a3d9-4db0074ca2bb}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "fde8a8b0-c0b9-11ee-a3d9-4db0074ca2bb",
+                "input": null,
+                "expression": "=${metric:c8836820-c0b6-11ee-a3d9-4db0074ca2bb}+${metric:c8e49af0-c0b6-11ee-a3d9-4db0074ca2bb}+${metric:99bdb942-c0b7-11ee-a3d9-4db0074ca2bb}+${metric:9a828fe4-c0b7-11ee-a3d9-4db0074ca2bb}+${metric:9b233cb4-c0b7-11ee-a3d9-4db0074ca2bb}+${metric:3207d180-c0b9-11ee-a3d9-4db0074ca2bb}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "8ccf96e0-c0c1-11ee-8301-cb5272575ac8",
+                "input": null,
+                "expression": "=${metric:eac81d10-c0b9-11ee-a3d9-4db0074ca2bb}*90",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "9eb9ec70-c0c1-11ee-8301-cb5272575ac8",
+                "input": null,
+                "expression": "=${metric:fde8a8b0-c0b9-11ee-a3d9-4db0074ca2bb}*${metric:aae3eff0-c0c1-11ee-8301-cb5272575ac8}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "aae3eff0-c0c1-11ee-8301-cb5272575ac8",
+                "input": null,
+                "expression": "1 to 2",
+                "guesstimateType": "LOGNORMAL",
+                "description": ""
+            },
+            {
+                "metric": "7de429d0-c85e-11ee-aaa8-65f55cdf1e90",
+                "input": null,
+                "expression": "",
+                "guesstimateType": "NONE",
+                "description": ""
+            },
+            {
+                "metric": "32be3980-c86a-11ee-aaa8-65f55cdf1e90",
+                "input": null,
+                "expression": "156170 to 1700000",
+                "guesstimateType": "LOGNORMAL",
+                "description": ""
+            },
+            {
+                "metric": "7313cc70-c86a-11ee-aaa8-65f55cdf1e90",
+                "input": null,
+                "expression": "139500 to 558000",
+                "guesstimateType": "NORMAL",
+                "description": ""
+            },
+            {
+                "metric": "c9a275a0-c86a-11ee-aaa8-65f55cdf1e90",
+                "input": null,
+                "expression": "538000000",
+                "guesstimateType": "POINT",
+                "description": ""
+            },
+            {
+                "metric": "e2dc48c0-c86a-11ee-aaa8-65f55cdf1e90",
+                "input": null,
+                "expression": "274306387",
+                "guesstimateType": "POINT",
+                "description": ""
+            },
+            {
+                "metric": "5be51620-c86b-11ee-aaa8-65f55cdf1e90",
+                "input": null,
+                "expression": "=${metric:c9a275a0-c86a-11ee-aaa8-65f55cdf1e90}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "7b1a4880-c86b-11ee-aaa8-65f55cdf1e90",
+                "input": null,
+                "expression": "=${metric:32be3980-c86a-11ee-aaa8-65f55cdf1e90}+${metric:7313cc70-c86a-11ee-aaa8-65f55cdf1e90}+${metric:24e0acb0-6bc8-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "9af2e6d0-c86b-11ee-aaa8-65f55cdf1e90",
+                "input": null,
+                "expression": "=${metric:c8836820-c0b6-11ee-a3d9-4db0074ca2bb}+${metric:c8e49af0-c0b6-11ee-a3d9-4db0074ca2bb}+${metric:99bdb942-c0b7-11ee-a3d9-4db0074ca2bb}+${metric:9a828fe4-c0b7-11ee-a3d9-4db0074ca2bb}+${metric:3207d180-c0b9-11ee-a3d9-4db0074ca2bb}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "ae6255c0-c86b-11ee-aaa8-65f55cdf1e90",
+                "input": null,
+                "expression": "1 to 2",
+                "guesstimateType": "LOGNORMAL",
+                "description": ""
+            },
+            {
+                "metric": "afbd51e0-c86b-11ee-aaa8-65f55cdf1e90",
+                "input": null,
+                "expression": "=${metric:9af2e6d0-c86b-11ee-aaa8-65f55cdf1e90}*${metric:ae6255c0-c86b-11ee-aaa8-65f55cdf1e90}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "c82d1e40-c86b-11ee-aaa8-65f55cdf1e90",
+                "input": null,
+                "expression": "=${metric:7313cc70-c86a-11ee-aaa8-65f55cdf1e90}+${metric:24e0acb0-6bc8-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "e3f7d570-c86b-11ee-aaa8-65f55cdf1e90",
+                "input": "",
+                "guesstimateType": "NONE",
+                "description": ""
+            },
+            {
+                "metric": "e8ad2020-c86b-11ee-aaa8-65f55cdf1e90",
+                "input": "",
+                "guesstimateType": "NONE",
+                "description": ""
+            },
+            {
+                "metric": "ebb7ef20-c86b-11ee-aaa8-65f55cdf1e90",
+                "input": null,
+                "expression": "",
+                "guesstimateType": "NONE",
+                "description": ""
+            },
+            {
+                "metric": "faf61070-c86b-11ee-aaa8-65f55cdf1e90",
+                "input": null,
+                "expression": "",
+                "guesstimateType": "NONE",
+                "description": ""
+            },
+            {
+                "metric": "feb1bde0-6bc7-11ef-952c-39ff51be922f",
+                "expression": "1000 to 2000",
+                "guesstimateType": "NORMAL",
+                "description": ""
+            },
+            {
+                "metric": "04946500-6bc8-11ef-952c-39ff51be922f",
+                "expression": "=${metric:e2dc48c0-c86a-11ee-aaa8-65f55cdf1e90}/${metric:feb1bde0-6bc7-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "0c0944e0-6bc8-11ef-952c-39ff51be922f",
+                "expression": "0.5 to 2",
+                "guesstimateType": "NORMAL",
+                "description": ""
+            },
+            {
+                "metric": "14f0c790-6bc8-11ef-952c-39ff51be922f",
+                "expression": "=${metric:04946500-6bc8-11ef-952c-39ff51be922f}*${metric:0c0944e0-6bc8-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "20aa7d10-6bc8-11ef-952c-39ff51be922f",
+                "expression": "0.25 to 0.5",
+                "guesstimateType": "NORMAL",
+                "description": ""
+            },
+            {
+                "metric": "24e0acb0-6bc8-11ef-952c-39ff51be922f",
+                "expression": "=${metric:14f0c790-6bc8-11ef-952c-39ff51be922f}*${metric:20aa7d10-6bc8-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "54fa3650-6bc8-11ef-952c-39ff51be922f",
+                "expression": "",
+                "guesstimateType": "NONE",
+                "description": ""
+            },
+            {
+                "metric": "57109330-6bc8-11ef-952c-39ff51be922f",
+                "expression": "65770 to 312886",
+                "guesstimateType": "NORMAL",
+                "description": ""
+            },
+            {
+                "metric": "60c57800-6bc8-11ef-952c-39ff51be922f",
+                "expression": "1",
+                "guesstimateType": "POINT",
+                "description": ""
+            },
+            {
+                "metric": "67d3a6d0-6bc8-11ef-952c-39ff51be922f",
+                "expression": "=${metric:57109330-6bc8-11ef-952c-39ff51be922f}*${metric:60c57800-6bc8-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "82cb5690-6bc8-11ef-952c-39ff51be922f",
+                "expression": "6% to 12%",
+                "guesstimateType": "NORMAL",
+                "description": ""
+            },
+            {
+                "metric": "8a94e620-6bc8-11ef-952c-39ff51be922f",
+                "expression": "999000 to 3533796",
+                "guesstimateType": "NORMAL",
+                "description": ""
+            },
+            {
+                "metric": "a63a8920-6bc8-11ef-952c-39ff51be922f",
+                "expression": "=${metric:82cb5690-6bc8-11ef-952c-39ff51be922f}*${metric:8a94e620-6bc8-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "ab6503d0-6bc8-11ef-952c-39ff51be922f",
+                "expression": "50% to 100%",
+                "guesstimateType": "NORMAL",
+                "description": ""
+            },
+            {
+                "metric": "c44963f0-6bc8-11ef-952c-39ff51be922f",
+                "expression": "=${metric:a63a8920-6bc8-11ef-952c-39ff51be922f}*${metric:ab6503d0-6bc8-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "cbbf0720-6bc8-11ef-952c-39ff51be922f",
+                "expression": "1",
+                "guesstimateType": "POINT",
+                "description": ""
+            },
+            {
+                "metric": "d30d9a50-6bc8-11ef-952c-39ff51be922f",
+                "expression": "=${metric:c44963f0-6bc8-11ef-952c-39ff51be922f}*${metric:cbbf0720-6bc8-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "1221ac90-6bc9-11ef-952c-39ff51be922f",
+                "expression": "",
+                "guesstimateType": "NONE",
+                "description": ""
+            },
+            {
+                "metric": "136ec600-6bc9-11ef-952c-39ff51be922f",
+                "expression": "110880000 to 770000000",
+                "guesstimateType": "NORMAL",
+                "description": ""
+            },
+            {
+                "metric": "1a36eb20-6bc9-11ef-952c-39ff51be922f",
+                "expression": "1000 to 2000",
+                "guesstimateType": "NORMAL",
+                "description": ""
+            },
+            {
+                "metric": "200a28f0-6bc9-11ef-952c-39ff51be922f",
+                "expression": "=${metric:136ec600-6bc9-11ef-952c-39ff51be922f}/${metric:1a36eb20-6bc9-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "24473660-6bc9-11ef-952c-39ff51be922f",
+                "expression": "70% to 100%",
+                "guesstimateType": "NORMAL",
+                "description": ""
+            },
+            {
+                "metric": "2a32b720-6bc9-11ef-952c-39ff51be922f",
+                "expression": "=${metric:200a28f0-6bc9-11ef-952c-39ff51be922f}*${metric:24473660-6bc9-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "304e6fa0-6bc9-11ef-952c-39ff51be922f",
+                "expression": "30 to 80",
+                "guesstimateType": "NORMAL",
+                "description": ""
+            },
+            {
+                "metric": "35fcc050-6bc9-11ef-952c-39ff51be922f",
+                "expression": "=${metric:2a32b720-6bc9-11ef-952c-39ff51be922f}*(${metric:304e6fa0-6bc9-11ef-952c-39ff51be922f}/365)",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "6e801120-6bc9-11ef-952c-39ff51be922f",
+                "expression": "400000000 to 600000000",
+                "guesstimateType": "NORMAL",
+                "description": ""
+            },
+            {
+                "metric": "72fee280-6bc9-11ef-952c-39ff51be922f",
+                "expression": "0.33 to 0.67",
+                "guesstimateType": "NORMAL",
+                "description": ""
+            },
+            {
+                "metric": "78b57090-6bc9-11ef-952c-39ff51be922f",
+                "expression": "=${metric:6e801120-6bc9-11ef-952c-39ff51be922f}*${metric:72fee280-6bc9-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "7e3907c0-6bc9-11ef-952c-39ff51be922f",
+                "expression": "25 to 50",
+                "guesstimateType": "NORMAL",
+                "description": ""
+            },
+            {
+                "metric": "84ec4550-6bc9-11ef-952c-39ff51be922f",
+                "expression": "=${metric:78b57090-6bc9-11ef-952c-39ff51be922f}/${metric:7e3907c0-6bc9-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "922bfe90-6bc9-11ef-952c-39ff51be922f",
+                "expression": "50% to 75%",
+                "guesstimateType": "LOGNORMAL",
+                "description": ""
+            },
+            {
+                "metric": "978159d0-6bc9-11ef-952c-39ff51be922f",
+                "expression": "=${metric:84ec4550-6bc9-11ef-952c-39ff51be922f}*${metric:922bfe90-6bc9-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "9bf4e090-6bc9-11ef-952c-39ff51be922f",
+                "expression": "=${metric:304e6fa0-6bc9-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "a236e5c0-6bc9-11ef-952c-39ff51be922f",
+                "expression": "=${metric:978159d0-6bc9-11ef-952c-39ff51be922f}*(${metric:9bf4e090-6bc9-11ef-952c-39ff51be922f}/365)",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "b7eb3ba0-6bc9-11ef-952c-39ff51be922f",
+                "expression": "",
+                "guesstimateType": "NONE",
+                "description": ""
+            },
+            {
+                "metric": "bf072610-6bc9-11ef-952c-39ff51be922f",
+                "expression": "=${metric:24e0acb0-6bc8-11ef-952c-39ff51be922f}+${metric:67d3a6d0-6bc8-11ef-952c-39ff51be922f}+${metric:35fcc050-6bc9-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "c37a1090-6bc9-11ef-952c-39ff51be922f",
+                "expression": "=${metric:32be3980-c86a-11ee-aaa8-65f55cdf1e90}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "ca00bfe0-6bc9-11ef-952c-39ff51be922f",
+                "expression": "=${metric:7313cc70-c86a-11ee-aaa8-65f55cdf1e90}+${metric:d30d9a50-6bc8-11ef-952c-39ff51be922f}+${metric:a236e5c0-6bc9-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "cf7a9310-6bc9-11ef-952c-39ff51be922f",
+                "expression": "=${metric:bf072610-6bc9-11ef-952c-39ff51be922f} + ${metric:c37a1090-6bc9-11ef-952c-39ff51be922f}+${metric:ca00bfe0-6bc9-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "eadac8a0-6bc9-11ef-952c-39ff51be922f",
+                "expression": "",
+                "guesstimateType": "NONE",
+                "description": ""
+            },
+            {
+                "metric": "f185c8d0-6bc9-11ef-952c-39ff51be922f",
+                "expression": "=287333",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "f5661040-6bc9-11ef-952c-39ff51be922f",
+                "expression": "0.25 to 1",
+                "guesstimateType": "LOGNORMAL",
+                "description": ""
+            },
+            {
+                "metric": "fa240d80-6bc9-11ef-952c-39ff51be922f",
+                "expression": "=${metric:f185c8d0-6bc9-11ef-952c-39ff51be922f}*${metric:f5661040-6bc9-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "018899b0-6bca-11ef-952c-39ff51be922f",
+                "expression": "3067325",
+                "guesstimateType": "POINT",
+                "description": ""
+            },
+            {
+                "metric": "05f9af70-6bca-11ef-952c-39ff51be922f",
+                "expression": "48.60%",
+                "guesstimateType": "POINT",
+                "description": ""
+            },
+            {
+                "metric": "0adfce20-6bca-11ef-952c-39ff51be922f",
+                "expression": "0.58 to 0.99",
+                "guesstimateType": "NORMAL",
+                "description": ""
+            },
+            {
+                "metric": "0f91e480-6bca-11ef-952c-39ff51be922f",
+                "expression": "=${metric:018899b0-6bca-11ef-952c-39ff51be922f}*${metric:05f9af70-6bca-11ef-952c-39ff51be922f}*${metric:0adfce20-6bca-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "1ef0ad30-6bca-11ef-952c-39ff51be922f",
+                "expression": "1 to 4",
+                "guesstimateType": "LOGNORMAL",
+                "description": ""
+            },
+            {
+                "metric": "24d7c120-6bca-11ef-952c-39ff51be922f",
+                "expression": "=${metric:0f91e480-6bca-11ef-952c-39ff51be922f}*${metric:1ef0ad30-6bca-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "29c002b0-6bca-11ef-952c-39ff51be922f",
+                "expression": "=${metric:24d7c120-6bca-11ef-952c-39ff51be922f}+${metric:455e52b0-6bca-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "349e2540-6bca-11ef-952c-39ff51be922f",
+                "expression": "21.80%",
+                "guesstimateType": "POINT",
+                "description": ""
+            },
+            {
+                "metric": "391184f0-6bca-11ef-952c-39ff51be922f",
+                "expression": "=${metric:018899b0-6bca-11ef-952c-39ff51be922f}*${metric:349e2540-6bca-11ef-952c-39ff51be922f}*${metric:0adfce20-6bca-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "455e52b0-6bca-11ef-952c-39ff51be922f",
+                "expression": "=${metric:391184f0-6bca-11ef-952c-39ff51be922f}*${metric:1ef0ad30-6bca-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "5a15d200-6bca-11ef-952c-39ff51be922f",
+                "expression": "=${metric:bf072610-6bc9-11ef-952c-39ff51be922f}+${metric:fa240d80-6bc9-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "92740ea0-6bca-11ef-952c-39ff51be922f",
+                "expression": "=${metric:c37a1090-6bc9-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "9886c670-6bca-11ef-952c-39ff51be922f",
+                "expression": "=${metric:29c002b0-6bca-11ef-952c-39ff51be922f}+${metric:455e52b0-6bca-11ef-952c-39ff51be922f}+${metric:ca00bfe0-6bc9-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "b91b88d0-6bca-11ef-952c-39ff51be922f",
+                "expression": "=${metric:5a15d200-6bca-11ef-952c-39ff51be922f}+${metric:92740ea0-6bca-11ef-952c-39ff51be922f}+${metric:9886c670-6bca-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "c81b8fb0-6bca-11ef-952c-39ff51be922f",
+                "expression": "",
+                "guesstimateType": "NONE",
+                "description": ""
+            },
+            {
+                "metric": "859ff600-708c-11ef-8d5a-55fbff66f9df",
+                "expression": "=${metric:2cd54c40-709c-11ef-8d5a-55fbff66f9df}*${metric:626a08a0-709c-11ef-8d5a-55fbff66f9df}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "a9282ed0-708c-11ef-8d5a-55fbff66f9df",
+                "expression": "70% to 100%",
+                "guesstimateType": "NORMAL",
+                "description": ""
+            },
+            {
+                "metric": "ee4b7670-708c-11ef-8d5a-55fbff66f9df",
+                "expression": "=${metric:859ff600-708c-11ef-8d5a-55fbff66f9df}*${metric:a9282ed0-708c-11ef-8d5a-55fbff66f9df}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "fb6e0ac0-708c-11ef-8d5a-55fbff66f9df",
+                "expression": "1 to 2",
+                "guesstimateType": "LOGNORMAL",
+                "description": ""
+            },
+            {
+                "metric": "038481d0-708d-11ef-8d5a-55fbff66f9df",
+                "expression": "=${metric:ee4b7670-708c-11ef-8d5a-55fbff66f9df}*${metric:fb6e0ac0-708c-11ef-8d5a-55fbff66f9df}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "664f4f90-7090-11ef-8d5a-55fbff66f9df",
+                "expression": "1% to 10%",
+                "guesstimateType": "LOGNORMAL",
+                "description": ""
+            },
+            {
+                "metric": "2905cdb0-709c-11ef-8d5a-55fbff66f9df",
+                "expression": "",
+                "guesstimateType": "NONE",
+                "description": ""
+            },
+            {
+                "metric": "2cd54c40-709c-11ef-8d5a-55fbff66f9df",
+                "expression": "55000000",
+                "guesstimateType": "POINT",
+                "description": ""
+            },
+            {
+                "metric": "626a08a0-709c-11ef-8d5a-55fbff66f9df",
+                "expression": "0.25 to 0.82",
+                "guesstimateType": "LOGNORMAL",
+                "description": ""
+            },
+            {
+                "metric": "4135e590-8a51-11ef-b6f3-cde86951bacf",
+                "expression": "=${metric:7b1a4880-c86b-11ee-aaa8-65f55cdf1e90}+${metric:67d3a6d0-6bc8-11ef-952c-39ff51be922f}+${metric:d30d9a50-6bc8-11ef-952c-39ff51be922f}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            },
+            {
+                "metric": "d2e34450-be2d-11ef-9241-33b3134d1943",
+                "expression": "",
+                "guesstimateType": "NONE",
+                "description": ""
+            },
+            {
+                "metric": "e75b2290-be2d-11ef-9241-33b3134d1943",
+                "expression": "1.2%",
+                "guesstimateType": "POINT",
+                "description": ""
+            },
+            {
+                "metric": "fb135a50-be2d-11ef-9241-33b3134d1943",
+                "expression": "1% to 15%",
+                "guesstimateType": "LOGNORMAL",
+                "description": ""
+            },
+            {
+                "metric": "0b3524e0-be2e-11ef-9241-33b3134d1943",
+                "expression": "=${metric:e75b2290-be2d-11ef-9241-33b3134d1943}*${metric:fb135a50-be2d-11ef-9241-33b3134d1943}",
+                "guesstimateType": "FUNCTION",
+                "description": ""
+            }
+        ]
+    },
+    "is_private": false,
+    "user_id": 11023,
+    "screenshot": "https://api.urlbox.io/v1/7fdbd83e-b992-46c9-b2b9-cbe6c69cf7f7/f82f7792b68b357b32e98176f8fa0fe03d17ab6f/jpg?delay=40000\u0026height=1150\u0026quality=90\u0026thumb_width=200\u0026url=https%3A%2F%2Fwww.getguesstimate.com%2Fmodels%2F23914%2Fembed\u0026width=1918",
+    "big_screenshot": "https://api.urlbox.io/v1/7fdbd83e-b992-46c9-b2b9-cbe6c69cf7f7/8273050d301f85acaa58df98ec4554d50da6f614/jpg?delay=40000\u0026height=1150\u0026quality=90\u0026url=https%3A%2F%2Fwww.getguesstimate.com%2Fmodels%2F23914%2Fembed\u0026width=1918",
+    "exported_facts_count": 0,
+    "imported_fact_ids": [],
+    "author_contributions": {
+        "11023": 742
+    },
+    "shareable_link_enabled": false,
+    "_embedded": {
+        "user": {
+            "id": 11023,
+            "name": "james.m",
+            "picture": "https://lh3.googleusercontent.com/a/ACg8ocIWONTvRxaDoHj5w3dKe3460fUywRB3gmsE7ZMs8riezw=s96-c"
+        },
+        "calculators": []
+    }
+}
